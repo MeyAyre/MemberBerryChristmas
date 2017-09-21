@@ -1,0 +1,14 @@
+var africa = new Audio("assets/raw/Africa.wav");
+var bionic_man = new Audio("assets/raw/bionic_man.wav");
+var gay = new Audio("assets/raw/gay.wav");
+var kill_you = new Audio("assets/raw/kill_you.wav");
+var member_song = new Audio("assets/raw/member_song.wav");
+var member = new Audio("assets/raw/member.wav");
+var mexicans = new Audio("assets/raw/mexicans.wav");
+var regan = new Audio("assets/raw/regan.wav");
+var safe = new Audio("assets/raw/safe.wav");
+var which_way = new Audio("assets/raw/which_way.wav");
+var member_chewy = new Audio("assets/raw/member_chewy.wav");
+var sounds = [africa, bionic_man, gay, kill_you, member_song, member_chewy, member, mexicans, regan, safe, which_way];
+var ran = Math.floor((Math.random() * sounds.length) + 1);
+sounds[ran-1].play();

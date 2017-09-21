@@ -6,5 +6,8 @@
     "default_icon": "assets/icon.png",
     "default_popup": "popup.html",
     "default_title": "Member me?"
-  }
+  },
+  "permissions": [
+    "activeTab"
+  ]
 }
